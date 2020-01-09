@@ -1,0 +1,4 @@
+passafe.x -d < ~/Dropbox/passfe.txt > /tmp/pass.tmp;
+vim /tmp/pass.tmp;
+passafe.x < /tmp/pass.tmp > ~/Dropbox/passfe.txt;
+rm /tmp/pass.tmp
